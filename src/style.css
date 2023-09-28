@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display";
+  text-decoration: none;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-hero {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.container {
+  width: 450px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 2px 2px 15px hsl(224, 23%, 55%);
+}
+
+.container2 {
+  width: 350px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 18px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.description {
+  margin-top: 13px;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.img-price {
+  display: flex;
+}
+
+.price {
+  width: 100%;
+  margin-block: 13px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.price a {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+}
+
+.sub-description {
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+}
+
+.price-year {
+  color: hsl(224, 23%, 55%);
+}
+
+.icon-music {
+  width: 28%;
+  margin-right: 18px;
+}
+
+.btn-pay {
+  width: 100%;
+  padding: 13px 0px;
+  color: hsl(225, 100%, 98%);
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  width: 100%;
+  margin-top: 15px;
+  padding: 13px 0px;
+  color: hsl(224, 23%, 55%);
+  background-color: hsl(231, 21%, 88%);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.attribution,
+.attribution a {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  color: hsl(228, 45%, 44%);
+}
